@@ -1,0 +1,57 @@
+body {
+    font-family: 'ValorantFont', sans-serif;
+    background-color: #40e0d0;
+    color: #333;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'ValorantFont';
+    src: url('Valorant.ttf');
+}
+
+header {
+    background-color: #0074cc;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #004080;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #BF40BF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Change color for specific navigation links */
+nav a {
+    color: black;
+}
+
+section {
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
